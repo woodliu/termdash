@@ -23,14 +23,14 @@ import (
 	"math"
 	"sync"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/draw"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/draw"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // BarChart displays multiple bars showing relative ratios of values.

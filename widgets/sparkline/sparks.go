@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 // sparks are the characters used to draw the SparkLine.

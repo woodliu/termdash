@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mum4k/termdash/private/numbers"
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/private/numbers"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 // fieldData are the data currently present inside the text input field.

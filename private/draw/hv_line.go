@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/canvas"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/canvas"
 )
 
 // HVLineOption is used to provide options to HVLine().

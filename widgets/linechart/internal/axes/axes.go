@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 const (

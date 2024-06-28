@@ -23,9 +23,9 @@ import (
 
 	tcell "github.com/gdamore/tcell/v2"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/keyboard"
+	"github.com/woodliu/termdash/mouse"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 type mockUnknownEvent struct {

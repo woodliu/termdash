@@ -18,12 +18,12 @@ package main
 
 import (
 	"context"
-	"github.com/mum4k/termdash"
-	"github.com/mum4k/termdash/container"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/terminal/tcell"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgets/heatmap"
+	"github.com/woodliu/termdash"
+	"github.com/woodliu/termdash/container"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/terminal/tcell"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgets/heatmap"
 )
 
 func main() {

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/runewidth"
-	"github.com/mum4k/termdash/private/wrap"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/runewidth"
+	"github.com/woodliu/termdash/private/wrap"
 )
 
 // line_trim.go contains code that trims lines that are too long.

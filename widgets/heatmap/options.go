@@ -16,7 +16,7 @@ package heatmap
 
 import (
 	"errors"
-	"github.com/mum4k/termdash/cell"
+	"github.com/woodliu/termdash/cell"
 )
 
 // options.go contains configurable options for HeatMap.

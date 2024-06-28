@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgets/linechart/internal/axes"
+	"github.com/woodliu/termdash/mouse"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgets/linechart/internal/axes"
 )
 
 // mustNewXDetails creates the XDetails or panics.

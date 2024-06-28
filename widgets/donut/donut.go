@@ -23,15 +23,15 @@ import (
 	"math"
 	"sync"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/braille"
-	"github.com/mum4k/termdash/private/draw"
-	"github.com/mum4k/termdash/private/runewidth"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/braille"
+	"github.com/woodliu/termdash/private/draw"
+	"github.com/woodliu/termdash/private/runewidth"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // progressType indicates how was the current progress provided by the caller.

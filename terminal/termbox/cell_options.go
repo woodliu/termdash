@@ -19,8 +19,8 @@ package termbox
 import (
 	"errors"
 
-	"github.com/mum4k/termdash/cell"
 	tbx "github.com/nsf/termbox-go"
+	"github.com/woodliu/termdash/cell"
 )
 
 // cellColor converts termdash cell color to the termbox format.

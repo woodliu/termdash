@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/canvas/braille"
-	"github.com/mum4k/termdash/private/numbers/trig"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/canvas/braille"
+	"github.com/woodliu/termdash/private/numbers/trig"
 )
 
 // BrailleCircleOption is used to provide options to BrailleCircle.

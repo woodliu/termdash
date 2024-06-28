@@ -20,11 +20,11 @@ import (
 	"image"
 	"sync"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
-	"github.com/mum4k/termdash/widgets/heatmap/internal/axes"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
+	"github.com/woodliu/termdash/widgets/heatmap/internal/axes"
 )
 
 // HeatMap draws heat map charts.

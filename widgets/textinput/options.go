@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/runewidth"
-	"github.com/mum4k/termdash/private/wrap"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/runewidth"
+	"github.com/woodliu/termdash/private/wrap"
 )
 
 // Option is used to provide options.

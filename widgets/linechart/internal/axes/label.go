@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/private/alignfor"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/private/alignfor"
 )
 
 // LabelOrientation represents the orientation of text labels.

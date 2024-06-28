@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/mum4k/termdash/private/event/eventqueue"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/private/event/eventqueue"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // Callback is a function provided by an event subscriber.

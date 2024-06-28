@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/faketerm"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/faketerm"
 )
 
 func TestRoot(t *testing.T) {

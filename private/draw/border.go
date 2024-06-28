@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/canvas"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/canvas"
 )
 
 // BorderOption is used to provide options to Border().

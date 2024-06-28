@@ -16,7 +16,7 @@ package button
 
 // text_options.go contains options used for the text displayed by the button.
 
-import "github.com/mum4k/termdash/cell"
+import "github.com/woodliu/termdash/cell"
 
 // TextOption is used to provide options to NewChunk().
 type TextOption interface {

@@ -19,8 +19,8 @@ import (
 
 	tcell "github.com/gdamore/tcell/v2"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 func TestNewTerminalColorMode(t *testing.T) {

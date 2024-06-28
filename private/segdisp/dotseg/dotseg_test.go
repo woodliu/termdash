@@ -20,15 +20,15 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/braille/testbraille"
-	"github.com/mum4k/termdash/private/canvas/testcanvas"
-	"github.com/mum4k/termdash/private/faketerm"
-	"github.com/mum4k/termdash/private/segdisp"
-	"github.com/mum4k/termdash/private/segdisp/segment"
-	"github.com/mum4k/termdash/private/segdisp/segment/testsegment"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/braille/testbraille"
+	"github.com/woodliu/termdash/private/canvas/testcanvas"
+	"github.com/woodliu/termdash/private/faketerm"
+	"github.com/woodliu/termdash/private/segdisp"
+	"github.com/woodliu/termdash/private/segdisp/segment"
+	"github.com/woodliu/termdash/private/segdisp/segment/testsegment"
 )
 
 func TestSegmentString(t *testing.T) {

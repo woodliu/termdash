@@ -21,9 +21,9 @@ import (
 	"image"
 	"strings"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 // OverrunMode represents

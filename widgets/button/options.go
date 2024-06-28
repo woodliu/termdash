@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/private/runewidth"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/keyboard"
+	"github.com/woodliu/termdash/private/runewidth"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // Option is used to provide options.

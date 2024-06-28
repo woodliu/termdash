@@ -21,13 +21,13 @@ import (
 	"image"
 	"sync"
 
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/draw"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/keyboard"
+	"github.com/woodliu/termdash/mouse"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/draw"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // outputLines are the number of lines written by this plugin.

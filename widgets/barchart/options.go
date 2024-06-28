@@ -19,8 +19,8 @@ package barchart
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/draw"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/draw"
 )
 
 // Option is used to provide options.

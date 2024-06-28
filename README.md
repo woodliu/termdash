@@ -1,11 +1,11 @@
-[![Doc Status](https://godoc.org/github.com/mum4k/termdash?status.png)](https://godoc.org/github.com/mum4k/termdash)
+[![Doc Status](https://godoc.org/github.com/woodliu/termdash?status.png)](https://godoc.org/github.com/woodliu/termdash)
 [![Build Status](https://app.travis-ci.com/mum4k/termdash.svg?branch=master)](https://app.travis-ci.com/github/mum4k/termdash)
 [![Coverage Status](https://coveralls.io/repos/github/mum4k/termdash/badge.svg?branch=master)](https://coveralls.io/github/mum4k/termdash?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mum4k/termdash)](https://goreportcard.com/report/github.com/mum4k/termdash)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/mum4k/termdash/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/woodliu/termdash)](https://goreportcard.com/report/github.com/woodliu/termdash)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/woodliu/termdash/blob/master/LICENSE)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
-# [<img src="./doc/images/termdash.png" alt="termdashlogo" type="image/png" width="30%">](http://github.com/mum4k/termdash/wiki)
+# [<img src="./doc/images/termdash.png" alt="termdashlogo" type="image/png" width="30%">](http://github.com/woodliu/termdash/wiki)
 
 Termdash is a cross-platform customizable terminal based dashboard.
 
@@ -24,7 +24,7 @@ for more details.
 # Public API and status
 
 The public API surface is documented in the
-[wiki](http://github.com/mum4k/termdash/wiki).
+[wiki](http://github.com/woodliu/termdash/wiki).
 
 Private packages can be identified by the presence of the **/private/**
 directory in their import path. Stability of the private packages isn't
@@ -53,8 +53,8 @@ project reaches version 1.0.0. Any breaking changes will be published in the
 To install this library, run the following:
 
 ```go
-go get -u github.com/mum4k/termdash
-cd github.com/mum4k/termdash
+go get -u github.com/woodliu/termdash
+cd github.com/woodliu/termdash
 ```
 
 # Usage
@@ -68,7 +68,7 @@ go run termdashdemo/termdashdemo.go
 
 # Documentation
 
-Please refer to the [Termdash wiki](http://github.com/mum4k/termdash/wiki) for
+Please refer to the [Termdash wiki](http://github.com/woodliu/termdash/wiki) for
 all documentation and resources.
 
 # Implemented Widgets
@@ -201,7 +201,7 @@ before contributing.
 If you're developing a new widget, please see the [widget
 development](doc/widget_development.md) section.
 
-Termdash uses [this branching model](https://nvie.com/posts/a-successful-git-branching-model/). When you fork the repository, base your changes off the [devel](https://github.com/mum4k/termdash/tree/devel) branch and the pull request should merge it back to the devel branch. Commits to the master branch are limited to releases, major bug fixes and documentation updates.
+Termdash uses [this branching model](https://nvie.com/posts/a-successful-git-branching-model/). When you fork the repository, base your changes off the [devel](https://github.com/woodliu/termdash/tree/devel) branch and the pull request should merge it back to the devel branch. Commits to the master branch are limited to releases, major bug fixes and documentation updates.
 
 # Similar projects in Go
 

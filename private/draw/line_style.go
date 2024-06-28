@@ -17,8 +17,8 @@ package draw
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 // line_style.go contains the Unicode characters used for drawing lines of

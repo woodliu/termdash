@@ -23,14 +23,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/attrrange"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/segdisp"
-	"github.com/mum4k/termdash/private/segdisp/dotseg"
-	"github.com/mum4k/termdash/private/segdisp/sixteen"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/attrrange"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/segdisp"
+	"github.com/woodliu/termdash/private/segdisp/dotseg"
+	"github.com/woodliu/termdash/private/segdisp/sixteen"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // SegmentDisplay displays ASCII content by simulating a segment display.

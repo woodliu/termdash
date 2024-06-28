@@ -21,9 +21,9 @@ import (
 
 	tcell "github.com/gdamore/tcell/v2"
 	"github.com/gdamore/tcell/v2/encoding"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/event/eventqueue"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/event/eventqueue"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // Option is used to provide options.

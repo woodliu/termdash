@@ -19,10 +19,10 @@ package gauge
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/draw"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/draw"
 )
 
 // Option is used to provide options.

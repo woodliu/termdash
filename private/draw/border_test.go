@@ -18,12 +18,12 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/testcanvas"
-	"github.com/mum4k/termdash/private/faketerm"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/testcanvas"
+	"github.com/woodliu/termdash/private/faketerm"
 )
 
 func TestBorder(t *testing.T) {

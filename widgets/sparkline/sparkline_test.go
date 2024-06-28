@@ -19,13 +19,13 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/testcanvas"
-	"github.com/mum4k/termdash/private/draw"
-	"github.com/mum4k/termdash/private/draw/testdraw"
-	"github.com/mum4k/termdash/private/faketerm"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/testcanvas"
+	"github.com/woodliu/termdash/private/draw"
+	"github.com/woodliu/termdash/private/draw/testdraw"
+	"github.com/woodliu/termdash/private/faketerm"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 func TestSparkLine(t *testing.T) {

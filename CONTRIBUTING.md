@@ -6,7 +6,7 @@ just a few small guidelines you need to follow.
 ## Fork and merge into the "devel" branch
 
 All development in termdash repository must happen in the [devel
-branch](https://github.com/mum4k/termdash/tree/devel). The devel branch is
+branch](https://github.com/woodliu/termdash/tree/devel). The devel branch is
 merged into the master branch during release of each new version.
 
 When you fork the termdash repository, be sure to checkout the devel branch.

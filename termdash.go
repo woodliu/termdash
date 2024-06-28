@@ -30,9 +30,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mum4k/termdash/container"
-	"github.com/mum4k/termdash/private/event"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/container"
+	"github.com/woodliu/termdash/private/event"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // DefaultRedrawInterval is the default for the RedrawInterval option.

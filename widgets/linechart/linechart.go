@@ -23,16 +23,16 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/braille"
-	"github.com/mum4k/termdash/private/draw"
-	"github.com/mum4k/termdash/private/numbers"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
-	"github.com/mum4k/termdash/widgets/linechart/internal/axes"
-	"github.com/mum4k/termdash/widgets/linechart/internal/zoom"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/braille"
+	"github.com/woodliu/termdash/private/draw"
+	"github.com/woodliu/termdash/private/numbers"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
+	"github.com/woodliu/termdash/widgets/linechart/internal/axes"
+	"github.com/woodliu/termdash/widgets/linechart/internal/zoom"
 )
 
 // seriesValues represent values stored in the series.
@@ -230,6 +230,13 @@ func (lc *LineChart) Series(label string, values []float64, opts ...SeriesOption
 	lc.yMin = yMin
 	lc.yMax = yMax
 	return nil
+}
+
+func (lc *LineChart) Reset() {
+	if lc == nil {
+		return
+	}
+	lc.series = make(map[string]*seriesValues)
 }
 
 // xDetails returns the details for the X axis given the specified minimum and

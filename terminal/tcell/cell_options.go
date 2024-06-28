@@ -16,8 +16,8 @@ package tcell
 
 import (
 	tcell "github.com/gdamore/tcell/v2"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // cellColor converts termdash cell color to the tcell format.

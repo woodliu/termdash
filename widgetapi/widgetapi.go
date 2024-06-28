@@ -18,8 +18,8 @@ package widgetapi
 import (
 	"image"
 
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // KeyScope indicates the scope at which the widget wants to receive keyboard

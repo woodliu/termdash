@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/testcanvas"
-	"github.com/mum4k/termdash/private/draw/testdraw"
-	"github.com/mum4k/termdash/private/faketerm"
-	"github.com/mum4k/termdash/private/wrap"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/testcanvas"
+	"github.com/woodliu/termdash/private/draw/testdraw"
+	"github.com/woodliu/termdash/private/faketerm"
+	"github.com/woodliu/termdash/private/wrap"
 )
 
 func TestLineTrim(t *testing.T) {

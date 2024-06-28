@@ -18,7 +18,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
+	"github.com/woodliu/termdash/cell"
 )
 
 func TestDiff(t *testing.T) {

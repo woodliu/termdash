@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
+	"github.com/woodliu/termdash/cell"
 	tbx "github.com/nsf/termbox-go"
 )
 

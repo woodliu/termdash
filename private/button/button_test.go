@@ -19,8 +19,8 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/mouse"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 // eventTestCase is one mouse event and the output expectation.

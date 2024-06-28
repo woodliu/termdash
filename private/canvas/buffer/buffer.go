@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/runewidth"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/runewidth"
 )
 
 // NewCells breaks the provided text into cells and applies the options.

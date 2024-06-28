@@ -1,4 +1,4 @@
-module github.com/mum4k/termdash
+module github.com/woodliu/termdash
 
 go 1.21
 

@@ -22,11 +22,11 @@ import (
 	"image"
 	"math"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/segdisp"
-	"github.com/mum4k/termdash/private/segdisp/sixteen"
+	"github.com/woodliu/termdash/align"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/segdisp"
+	"github.com/woodliu/termdash/private/segdisp/sixteen"
 )
 
 // attributes contains attributes needed to draw the segment display.

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/widgets/linechart/internal/axes"
-	"github.com/mum4k/termdash/widgets/linechart/internal/zoom"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/widgets/linechart/internal/axes"
+	"github.com/woodliu/termdash/widgets/linechart/internal/zoom"
 )
 
 // options.go contains configurable options for LineChart.

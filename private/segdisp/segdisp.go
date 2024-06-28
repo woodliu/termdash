@@ -20,9 +20,9 @@ import (
 	"image"
 	"math"
 
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/private/canvas/braille"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/private/canvas/braille"
 )
 
 // Minimum valid size of a cell canvas in order to draw a segment display.

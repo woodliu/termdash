@@ -18,11 +18,11 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/canvas/braille"
-	"github.com/mum4k/termdash/private/canvas/braille/testbraille"
-	"github.com/mum4k/termdash/private/faketerm"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/canvas/braille"
+	"github.com/woodliu/termdash/private/canvas/braille/testbraille"
+	"github.com/woodliu/termdash/private/faketerm"
 )
 
 func TestBrailleLine(t *testing.T) {

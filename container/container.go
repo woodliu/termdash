@@ -27,12 +27,12 @@ import (
 	"image"
 	"sync"
 
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/private/alignfor"
-	"github.com/mum4k/termdash/private/area"
-	"github.com/mum4k/termdash/private/event"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/woodliu/termdash/linestyle"
+	"github.com/woodliu/termdash/private/alignfor"
+	"github.com/woodliu/termdash/private/area"
+	"github.com/woodliu/termdash/private/event"
+	"github.com/woodliu/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/widgetapi"
 )
 
 // Container wraps either sub containers or widgets and positions them on the

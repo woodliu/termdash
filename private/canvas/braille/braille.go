@@ -45,9 +45,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/private/canvas"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/woodliu/termdash/cell"
+	"github.com/woodliu/termdash/private/canvas"
+	"github.com/woodliu/termdash/terminal/terminalapi"
 )
 
 const (
