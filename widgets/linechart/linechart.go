@@ -232,6 +232,13 @@ func (lc *LineChart) Series(label string, values []float64, opts ...SeriesOption
 	return nil
 }
 
+func (lc *LineChart) Reset() {
+	if lc == nil {
+		return
+	}
+	lc.series = make(map[string]*seriesValues)
+}
+
 // xDetails returns the details for the X axis given the specified minimum and
 // maximum value to display.
 func (lc *LineChart) xDetails(cvs *canvas.Canvas, reqYWidth, min, max int) (*axes.XDetails, error) {
